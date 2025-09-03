@@ -10,7 +10,7 @@ avg_rent = df['Rent'].mean()
 avg_size = df['Size'].mean()
 avg_bedrooms = df['Bedroom'].mean()
 
-print("\n📊 Basic Statistics:")
+print("\nBasic Statistics:")
 print(f"Average Rent: ₹{avg_rent:.2f}")
 print(f"Average House Size: {avg_size:.2f} sqft")
 print(f"Average Number of Bedrooms: {avg_bedrooms:.2f}")
@@ -39,3 +39,4 @@ plt.figure(figsize=(8,6))
 sns.heatmap(corr, annot=True, cmap="coolwarm", fmt=".2f")
 plt.title("Correlation Heatmap of Features")
 plt.show()
+
